@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contenedor_principal">
+        <header class="encabezado">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="search">
+            <button onclick="turnOff(this)">Login</button>
+        </header>
+    
+        <main class="contenedor_main">
+            <div class="contenedor_izquierda">
+    
+                <div class="contenedor_izq_sup">
+                    <div class="subcontenedor">
+                        <h2>ninja</h2>
+                        <button onclick="like()">13 likes</button>
+                    </div>
+                   
+                       
+                    <div class="subcontenedor">
+                         <p>A practitioner skilled in the Japanese art of ninjutsu</p>
+                    </div>
+                    
+                </div>
+    
+                <div class="contenedor_izq_inf">
+                    <div class="subcontenedor">
+                        <h2>ninja</h2>
+                        <button onclick="like()">37 likes</button>
+                    </div>
+                    
+
+                    <div class="subcontenedor">
+                        <p>A practitioner skilled in the Japanese art of ninjutsu</p>
+                   </div>
+                </div>
+    
+            </div>
+    
+            <div class="contenedor_derecha">
+                
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="boton" onclick="hide(this)">Add Definition</button>
+               
+            </div>
+        </main>
+    </div>
+
+    <!-- Enlace JavaScript -->
+
+<script src="./script.js"></script>
+
+</body>
+</html>
